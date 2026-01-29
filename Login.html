@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Login</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="form.css">
+
+    <style>
+        nav {
+            background-color: #f1f5f9;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: #1e293b;
+            padding: 10px 15px;
+            display: inline-block;
+            font-weight: bold;
+        }
+        
+        nav a:hover {
+            background-color: #1e3a8a;
+            color: white;
+            border-radius: 5px;
+        }
+        </style>
+        
+</head>
+<body>
+
+<header>
+    <h1>User Login</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a> |
+    <a href="categories.html">Categories</a> |
+    <a href="login.html">Login</a> |
+    <a href="cart.html">Cart</a> |
+    <a href="contact.html">Contact</a>
+</nav>
+
+<section>
+    <form>
+        <fieldset>
+            <legend>New User Registration</legend>
+
+            <label>Name:</label>
+            <input type="text" required autofocus placeholder="Enter name"><br><br>
+
+            <label>Email:</label>
+            <input type="email" required placeholder="example@mail.com"><br><br>
+
+            <label>Password:</label>
+            <input type="password" required><br><br>
+
+            <label>Gender:</label>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female<br><br>
+
+            <label>Interests:</label>
+            <input type="checkbox"> Fiction
+            <input type="checkbox"> Science<br><br>
+
+            <label>Date of Birth:</label>
+            <input type="date"><br><br>
+
+            <label>Upload Photo:</label>
+            <input type="file"><br><br>
+
+            <input type="submit">
+        </fieldset>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Online Book Store</p>
+</footer>
+
+</body>
+</html>
+

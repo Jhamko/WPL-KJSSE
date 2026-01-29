@@ -1,0 +1,28 @@
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+
+th {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+    padding: 8px;
+}
+
+/* Zebra striping */
+.zebra tbody tr:nth-child(even) {
+    background-color: #e0e7ff;
+}
+
+.zebra tbody tr:nth-child(odd) {
+    background-color: #c16060;
+}
+
+  

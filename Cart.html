@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cart</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="table.css" rel="stylesheet">
+    <style>
+        nav {
+            background-color: #f1f5f9;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: #1e293b;
+            padding: 10px 15px;
+            display: inline-block;
+            font-weight: bold;
+        }
+        
+        nav a:hover {
+            background-color: #1e3a8a;
+            color: white;
+            border-radius: 5px;
+        }
+        </style>
+        
+</head>
+<body>
+
+<header>
+    <h1>Your Cart</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a> |
+    <a href="categories.html">Categories</a> |
+    <a href="login.html">Login</a> |
+    <a href="cart.html">Cart</a> |
+    <a href="contact.html">Contact</a>
+</nav>
+
+<section>
+    <table class="zebra" border="1">
+        <caption>Book Price Comparison</caption>
+
+        <thead>
+            <tr>
+                <th>Book Name</th>
+                <th>Author</th>
+                <th colspan="2">Price & Availability</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2">Book A</td>
+                <td rowspan="2">Author A</td>
+                <td>₹500</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td>₹450</td>
+                <td>Discounted</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Book B</td>
+                <td rowspan="2">Author B</td>
+                <td>₹650</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td>₹600</td>
+                <td>Discounted</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Book C</td>
+                <td rowspan="2">Author C</td>
+                <td>₹700</td>
+                <td>Out of Stock</td>
+            </tr>
+            <tr>
+                <td>₹680</td>
+                <td>Limited Offer</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="4">Prices inclusive of taxes</td>
+            </tr>
+        </tfoot>
+    </table>
+</section>
+
+
+
+<footer>
+    <p>&copy; 2025 Online Book Store</p>
+</footer>
+
+</body>
+</html>

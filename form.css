@@ -1,0 +1,31 @@
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    width: 250px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #94a3b8;
+}
+
+input:focus {
+    outline: none;
+    border-color: #1e3a8a;
+}
+
+input[type="submit"] {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #0f172a;
+}
+
+fieldset {
+    border-radius: 10px;
+    padding: 20px;
+}
